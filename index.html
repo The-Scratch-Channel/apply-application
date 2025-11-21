@@ -4,7 +4,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <form netlify name="apply">
+  <form 
+    netlify
+    name="apply"
+    netlify-honeypot="bot-field" 
+    >
+    <label>
+      <input class="hidden" name="bot-field" type="text" />
+    </label>
     <center><h1><br>Apply to be a writer for TSC</h1>
     <label for=tscname><br>Website Name</label>
     <input type="text" name="tscname">
