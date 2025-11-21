@@ -27,5 +27,7 @@ input {
 }
 
 label, h1{
-    font-family: Roboto
+    font-family: Roboto;
+    right-margin: 10%;
+    left-margin: 10%
 } 
