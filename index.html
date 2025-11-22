@@ -7,11 +7,8 @@
   <form 
     netlify
     name="apply"
-    netlify-honeypot="bot-field" 
+    data-netlify-recaptcha="true" 
     >
-    <label>
-      <input class="hidden" name="bot-field" type="text" />
-    </label>
     <center><h1><br>Apply to be a writer for TSC</h1>
     <label for=tscname><br>Website Name</label>
     <input type="text" name="tscname">
@@ -19,6 +16,7 @@
     <input type="text" name="scratchname">
     <label for=example><br>Writing Example</label>
     <textarea name="example"></textarea>
+      <div data-netlify-recaptcha="true"></div>
     <button type="submit">Apply</button></center>
   </form>
 </body>
